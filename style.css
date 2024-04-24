@@ -1,0 +1,52 @@
+.cont{
+    position: absolute;
+    top: 6pc;
+    left: 40pc;
+    font-family: "Kanit", sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: normal;
+}
+.ee{
+    font-size: 28px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+} 
+.background-image {
+    position: fixed;
+  top: 40%;
+  left: 40%;
+  transform: translate(50%, 50%);
+    /* Set the background image */
+    background-image: url('icon.png');
+    background-size: cover; /* Adjust the image size */
+    background-position: center; /* Center the image */
+  height: 20pc;
+  width: 20pc;
+    /* Set the z-index */
+    position: relative;
+    z-index: -1;
+  
+    /* Set the opacity */
+    opacity: 0.5;
+  }
+  .jj{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 30px;
+  }
+  .uu{
+    padding: 0.5pc;
+    padding-left: 4pc;
+    padding-right: 4pc;
+    border-radius: 30px;
+    border-style: none;
+    background-color: rgb(233, 233, 21);
+  }
+  .uu:hover{
+    cursor: pointer;
+  }
